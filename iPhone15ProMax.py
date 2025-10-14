@@ -7,7 +7,7 @@ from playsound import playsound
 from prettytable import PrettyTable
 
 # 监控总开关
-monitor_switch = True
+monitor_switch = False
 
 
 # 监控核心代码块
