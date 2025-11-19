@@ -29,7 +29,7 @@ def getIphoneInfo():
                 storeModel = result_json['body']['content']['pickupMessage']['stores'][i]['partsAvailability']['MU2P3CH/A']['messageTypes']['regular']['storePickupProductTitle']
                 # print(storeName, storeStatus,storeModel)
                 if storeStatus.find('不可取货') != -1:
-                    storeStatus = '\033[91m%s\033[0m' % storeStatus  # 输出红色
+                    storeStatus = '\033[91m%s\033[0m' % storeStatus  # 输出红色1
                 else:
                     global monitor_switch  # 更改全局变量
                     monitor_switch = False  # 关闭监控
