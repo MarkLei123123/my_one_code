@@ -60,7 +60,7 @@ def check_json_format(raw_msg):
 
 
 if __name__ == '__main__':
-    interval = sleeptime(0, 0, 20)  # 设置刷新间隔时间
+    interval = sleeptime(0, 0, 20)  # 设置刷新间隔时间。。
     while monitor_switch == True:
         print(getIphoneInfo())
         refreshTime = '============================= ' + time.strftime("%Y-%m-%d %H:%M:%S", time.localtime()) + ' 刷新============================='  # 刷新时间
